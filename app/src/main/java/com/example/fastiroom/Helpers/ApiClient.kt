@@ -1,6 +1,6 @@
-package com.example.fastiroom.Helpers
+package com.example.fastiroom.helpers
 
-import com.example.fastiroom.Services.RoomApiService
+import com.example.fastiroom.services.RoomApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

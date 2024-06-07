@@ -1,4 +1,4 @@
-package com.example.fastiroom
+package com.example.fastiroom.views
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -6,12 +6,10 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.fastiroom.Models.Reservation
-import com.example.fastiroom.Repository.ReservationRepository
+import com.example.fastiroom.models.Reservation
+import com.example.fastiroom.R
+import com.example.fastiroom.repository.ReservationRepository
 import java.util.Calendar
 
 class ReservationActivity : AppCompatActivity() {

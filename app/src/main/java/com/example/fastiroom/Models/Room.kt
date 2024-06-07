@@ -1,4 +1,4 @@
-package com.example.fastiroom.Models
+package com.example.fastiroom.models
 
 data class Room(
     val id: Int,
@@ -8,4 +8,6 @@ data class Room(
     val dimension: Double,
     val image: String,
     val disponibilite: Int
-)
+){
+    val prixString : String get() = prix.toString()
+}

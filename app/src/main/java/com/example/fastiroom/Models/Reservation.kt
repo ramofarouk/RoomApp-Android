@@ -1,6 +1,4 @@
-package com.example.fastiroom.Models
-
-import java.sql.Date
+package com.example.fastiroom.models
 
 
 data class Reservation(

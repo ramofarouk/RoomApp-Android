@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListReservationActivity"
+    tools:context=".views.ListReservationActivity"
     android:padding="10dp">
 
     <ProgressBar

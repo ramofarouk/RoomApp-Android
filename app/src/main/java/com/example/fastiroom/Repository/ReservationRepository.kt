@@ -1,12 +1,11 @@
-package com.example.fastiroom.Repository
+package com.example.fastiroom.repository
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteException
 import android.util.Log
-import com.example.fastiroom.Helpers.DatabaseHelper
-import com.example.fastiroom.Models.Reservation
-import java.sql.SQLException
+import com.example.fastiroom.helpers.DatabaseHelper
+import com.example.fastiroom.models.Reservation
 
 class ReservationRepository(context: Context) {
     object CONTACT_TABLE{

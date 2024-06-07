@@ -1,6 +1,6 @@
-package com.example.fastiroom.Services
+package com.example.fastiroom.services
 
-import com.example.fastiroom.Models.Room
+import com.example.fastiroom.models.Room
 import retrofit2.Call
 import retrofit2.http.GET
 

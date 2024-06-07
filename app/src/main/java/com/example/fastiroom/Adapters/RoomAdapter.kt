@@ -1,4 +1,4 @@
-package com.example.fastiroom.Adapters
+package com.example.fastiroom.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,9 +8,8 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.example.fastiroom.Models.Room
+import com.example.fastiroom.models.Room
 import com.example.fastiroom.R
-import org.w3c.dom.Text
 
 class RoomAdapter(private val context: Context,private val rooms : MutableList<Room>) : BaseAdapter() {
     private val inflater : LayoutInflater = LayoutInflater.from(context)

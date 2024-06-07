@@ -1,19 +1,15 @@
-package com.example.fastiroom
+package com.example.fastiroom.views
 
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.ListView
 import android.widget.ProgressBar
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.fastiroom.Adapters.ReservationAdapter
-import com.example.fastiroom.Adapters.RoomAdapter
-import com.example.fastiroom.Models.Reservation
-import com.example.fastiroom.Models.Room
-import com.example.fastiroom.Repository.ReservationRepository
+import com.example.fastiroom.adapters.ReservationAdapter
+import com.example.fastiroom.models.Reservation
+import com.example.fastiroom.R
+import com.example.fastiroom.repository.ReservationRepository
 
 class ListReservationActivity : AppCompatActivity() {
     lateinit var listView : ListView

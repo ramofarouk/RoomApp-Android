@@ -1,4 +1,4 @@
-package com.example.fastiroom.Helpers
+package com.example.fastiroom.helpers
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
